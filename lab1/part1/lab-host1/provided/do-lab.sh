@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+echo "Starting the lab below..."
 
 # INCLUDE ALL COMMANDS NEEDED TO PERFORM THE LAB
 # This file will get called from capture_submission.sh
