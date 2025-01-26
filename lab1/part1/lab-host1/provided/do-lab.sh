@@ -8,6 +8,12 @@ echo "Starting the lab below..."
 #2. Connect the interfaces frin 4node-part1.clab.yml to the bridge.
 
 #!/bin/bash
+#!/usr/bin/bash
+# docker exec <container name> <command to run in container>
+# example from change_mac_addrs.sh
+docker exec clab-lab1-part1-switch ip link set dev eth1 address aa:bb:cc:11:22:11
+
+
 
 # Create a bridge
 sudo brctl addbr mybridge
